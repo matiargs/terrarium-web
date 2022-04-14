@@ -1,0 +1,37 @@
+<!-- A website can be anything. It shouldn't be an archive of your complete works.
+    A website, or anything interactive, is inherently unfinished. It's imperfect,
+    maybe sometimes it even has a few bugs. But that's the beauty of it. Websites are living, temporal spaces. @annadorotheaker-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias" />
+    <meta name="description" content="Terrarium"/>
+    <title>Terrarium</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.trunk.min.js"></script>
+</head>
+<body>
+    <div id="terrarium"></div>
+</body>
+</html>
+<style>
+    html, body, div {
+        margin: 0;
+        height: 100%;
+    }
+</style>
+<script>
+    VANTA.TRUNK({
+        el: "#terrarium",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00
+    })
+</script>
